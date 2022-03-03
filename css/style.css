@@ -1,0 +1,458 @@
+body {
+    background: #fff;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    color: #8b8b92;
+    padding: 0;
+    margin: 0;
+}
+
+::selection{
+    color: #fff;
+    background-color: black;
+}
+*{
+    transition: all 0.3s;
+    scroll-behavior: smooth;
+}
+.section-gab{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+a{
+    color: #a5a5ab;
+}
+
+
+
+/* =======header======= */
+.oso{
+    position: absolute;
+    margin-top: 30px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+ .navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    line-height: 1;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: .9rem !important;
+    padding-bottom: .9rem !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    color: #f0f0f0;
+    opacity: 1 !important;
+}
+.nav-item .nav-link:hover{
+    color: #78d5ef !important;
+}
+
+/* ========slider====== */
+
+.home-slider{
+    position: relative;
+}
+.home-slider .slider-item {
+    background-position: center center;
+    height: calc(100vh - 117px);
+    background: linear-gradient(45deg, #29bae4 0%, #ee76ad 100%);
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 85%);
+    min-height: 900px;
+    position: relative;
+}
+.home-slider .office{
+    min-height: 550px !important;
+}
+.home-slider .slider-item .slider-text {
+    color: #fff;
+    height: calc(100vh - 117px);
+    min-height: 500px;
+}
+.home-slider .slider-item .slider-text h1 .stor{
+    font-weight: 800;
+}
+.home-slider .slider-item .slider-text p {
+    font-size: 20px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.8);
+}
+.primy-btn{
+    border: 1px solid #fff;
+    background: transparent ;
+    border-radius: 50px;
+    color: #fff;
+    text-decoration: none !important;
+    font-size: 18px;
+    padding: 15px 25px;
+}
+
+.primy-btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.primy-btn span {
+    font-size: 12px;
+}
+
+
+
+/*============= ftfo section================= */
+.ftco-section-featured {
+    margin-top: -460px;
+    padding-bottom: 7em;
+}
+.jack .mark{
+    height: auto;
+    padding: 0px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #17a2b8;
+    opacity: 0.7;
+}
+/* =========racks========= */
+.heading-section .subheading {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgba(0, 0, 0, 0.2);
+}
+.heading-section h3 {
+    color: #404044;
+    font-size: 34px;
+    font-weight: 400;
+}
+.radhe{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    font-size: 35px;
+}
+.color-1{
+    background-color:#eaf8fd;
+    color: #78d5ef;
+}
+.color-2{
+    background-color:#ebfdf4;
+    color: #79efb4;
+}
+.color-3{
+    background-color:#fce7f1;
+    color: #ee76ad;
+}
+.color-4{
+    background-color:#fdf2ea;
+    color: #efac78;
+}
+.syam h2{
+    font-size: 17px;
+    line-height: 1.5;
+    color: #404044;
+}
+.syam p{
+    font-size: 16px;
+}
+.chenal{
+    background: #78d5ef;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 200px 0px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 85%);
+}
+.white h2{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 50px;
+    font-weight: 300;
+}
+
+/* ===========works======= */
+.block-3 .image {
+    background-image: url(..//img/work-1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 405px;
+    padding:7%;
+}
+.block-3 .image1 {
+    background-image: url(..//img/work-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 405px;
+    padding:7%;
+}
+.block-3 .image2 {
+    background-image: url(..//img/work-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 405px;
+    padding:7%;
+}
+.block-3 .image4 {
+    background-image: url(..//img/work-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 405px;
+    padding:7%;
+}
+.block-3 .image5 {
+    background-image: url(..//img/work-5.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 405px;
+    padding:7%;
+}
+.block-3 .image6 {
+    background-image: url(..//img/work-6.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 405px;
+    padding: 7%;
+}
+.tusar{
+    padding: 7%;
+    width: 100%;
+    height: 405px;
+    background-color: #f8faff;
+}
+.block-3 .tusar .subheading {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #a3c2d1;
+}
+.block-3 .tusar .heading {
+    font-size: 30px;
+    color: #404044;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+/* =======coutomer===== */
+.tatto{
+    border: 1px solid #e7e7e8;
+}
+.over img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+.arju i{
+    color: white;
+}
+.over .arju{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    background: #79efb4;
+    border-radius: 50%;
+}
+
+.tatto .name {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 0;
+    color: #404044;
+}
+.tatto .position{
+    font-size: 13px;
+    color: #c0c0c3;
+}
+
+
+/* ============counter===== */
+
+.counter{
+    background: #ee76ad;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;
+    padding: 200px 0px;
+    clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0 85%);  
+}
+.counter1 {
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+/* ===========blog====== */
+.bumro{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0px 4px 18px -12px rgba(0, 0, 0, 0.75);
+    border: 1px solid #f7f7f7;
+
+}
+.abhi img{
+    width: 100%;
+    height: 300px;
+}
+.bumro .text {
+    border-top: 0;
+    border-radius: 2px;
+}
+.maru a{
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.text .hard a {
+    color: #404044;
+    text-decoration: none;
+}
+.text .hard a:hover{
+    color: #78d5ef;
+}
+
+/* ==========footer======= */
+.footer {
+    font-size: 16px;
+    background: #29bae4;
+    padding: 12em 0 8em 0;
+}
+.heading-2 {
+    font-weight: normal;
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.footer p {
+    color: rgba(255, 255, 255, 0.7);
+}
+.footer a {
+    color: rgba(255, 255, 255, 0.7);
+}
+.form-control{
+    padding: 23px;
+    position: relative;
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.mann{
+    position: absolute;
+    right: 16%;
+    padding-top: 9px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.subscribe-form .form-group input {
+    background: transparent !important;
+}
+
+/* ===========about======== */
+.slider-text .breadcrumbs {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+    z-index: 99;
+}
+.kalank{
+    padding: 7%;
+}
+.surti{
+    font-size: 30px;
+    margin-bottom: 50px;
+    color: #404044;
+}
+.kabira{
+    background-image: url(..//img/about.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 25px 82px -31px rgba(0, 0, 0, 0.36);
+}
+.els{
+    font-size: 20px;
+    color: #404044;
+}
+.dholi ul li{
+    text-decoration: none !important;
+    list-style: none !important;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    border: 1px solid #e7e7e8;
+    line-height: 36px;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: #efac78;
+}
+.lalo{
+    background-color: #79efb4;
+    color: #fff !important;
+}
+
+/* ===========contact====== */
+.map .container{
+    padding: 70px;
+}
+.map .mony{
+    color: #404044;
+    font-size: 21px;
+}
+.form-control {
+    background: #fff !important;
+    color: #404044 !important;
+}
+.amazon{
+        padding: 15px 17px;
+        font-weight: 500;
+        background: #78d5ef;
+        border: 2px solid #78d5ef;
+        color: #fff;
+        border-radius: 30px;
+        font-size: 18px;
+}
